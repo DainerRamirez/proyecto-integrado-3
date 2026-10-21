@@ -1,0 +1,58 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 62702
+Columnas: 19
+Duplicados: 0
+
+Columnas y tipos:
+- Year: int64
+- Month: object
+- Bene_Geo_Desc: object
+- Bene_Mdcd_Mdcr_Enrl_Stus: object
+- Bene_Race_Desc: object
+- Bene_Sex_Desc: object
+- Bene_Mdcr_Entlmt_Stus: object
+- Bene_Age_Desc: object
+- Bene_RUCA_Desc: object
+- Total_Hosp: float64
+- Total_Enrl: float64
+- Total_Hosp_Per100K: float64
+- Avg_LOS: float64
+- Pct_Dschrg_SNF: float64
+- Pct_Dschrg_Expired: float64
+- Pct_Dschrg_Home: float64
+- Pct_Dschrg_Hspc: float64
+- Pct_Dschrg_HomeHealth: float64
+- Pct_Dschrg_Other: float64
+
+Valores nulos por columna:
+- Year: 0
+- Month: 0
+- Bene_Geo_Desc: 0
+- Bene_Mdcd_Mdcr_Enrl_Stus: 0
+- Bene_Race_Desc: 0
+- Bene_Sex_Desc: 0
+- Bene_Mdcr_Entlmt_Stus: 0
+- Bene_Age_Desc: 0
+- Bene_RUCA_Desc: 0
+- Total_Hosp: 12567
+- Total_Enrl: 201
+- Total_Hosp_Per100K: 12608
+- Avg_LOS: 14254
+- Pct_Dschrg_SNF: 14254
+- Pct_Dschrg_Expired: 14254
+- Pct_Dschrg_Home: 14254
+- Pct_Dschrg_Hspc: 14254
+- Pct_Dschrg_HomeHealth: 14254
+- Pct_Dschrg_Other: 14254
+
+Estadísticas numéricas:
+            Year   Total_Hosp    Total_Enrl  Total_Hosp_Per100K    Avg_LOS  Pct_Dschrg_SNF  Pct_Dschrg_Expired  Pct_Dschrg_Home  Pct_Dschrg_Hspc  Pct_Dschrg_HomeHealth  Pct_Dschrg_Other
+count  62702.000    50135.000  6.250100e+04           50094.000  48448.000       48448.000           48448.000        48448.000        48448.000              48448.000         48448.000
+mean    2021.269     4720.800  1.995636e+06             325.534     10.452           0.175               0.119            0.409            0.038                  0.172             0.060
+std        1.021    28808.696  1.170057e+07             806.014      3.967           0.074               0.069            0.114            0.026                  0.062             0.032
+min     2020.000        0.000  0.000000e+00               0.000      2.647           0.000               0.000            0.000            0.000                  0.000             0.000
+25%     2020.000       87.000  3.297300e+04              58.917      8.610           0.125               0.061            0.342            0.021                  0.133             0.042
+50%     2021.000      369.000  1.945260e+05             123.672      9.894           0.170               0.113            0.404            0.036                  0.171             0.057
+75%     2022.000     1585.000  7.929372e+05             249.956     11.393           0.220               0.164            0.479            0.050                  0.210             0.074
+max     2023.000  1166117.000  3.471752e+08           16899.023    208.714           0.769               0.667            1.000            0.308                  0.583             0.421
