@@ -1,13 +1,13 @@
 REPORTE DEL DATAFRAME
 ============================================================
 Filas: 53342
-Columnas: 19
+Columnas: 20
 Duplicados: 0
 
 Columnas y tipos:
 - Year: int64
 - Month: object
-- Bene_Geo_Desc: object
+- Geographic Location: object
 - Bene_Mdcd_Mdcr_Enrl_Stus: object
 - Bene_Race_Desc: object
 - Bene_Sex_Desc: object
@@ -24,35 +24,37 @@ Columnas y tipos:
 - Pct_Dschrg_Hspc: float64
 - Pct_Dschrg_HomeHealth: float64
 - Pct_Dschrg_Other: float64
+- Pct_Hospitalizados: float64
 
 Valores nulos por columna:
 - Year: 0
 - Month: 0
-- Bene_Geo_Desc: 0
+- Geographic Location: 0
 - Bene_Mdcd_Mdcr_Enrl_Stus: 0
 - Bene_Race_Desc: 0
 - Bene_Sex_Desc: 0
 - Bene_Mdcr_Entlmt_Stus: 0
 - Bene_Age_Desc: 0
 - Bene_RUCA_Desc: 0
-- Total_Hosp: 9117
+- Total_Hosp: 0
 - Total_Enrl: 0
-- Total_Hosp_Per100K: 9117
-- Avg_LOS: 10693
-- Pct_Dschrg_SNF: 10693
-- Pct_Dschrg_Expired: 10693
-- Pct_Dschrg_Home: 10693
-- Pct_Dschrg_Hspc: 10693
-- Pct_Dschrg_HomeHealth: 10693
-- Pct_Dschrg_Other: 10693
+- Total_Hosp_Per100K: 0
+- Avg_LOS: 0
+- Pct_Dschrg_SNF: 0
+- Pct_Dschrg_Expired: 0
+- Pct_Dschrg_Home: 0
+- Pct_Dschrg_Hspc: 0
+- Pct_Dschrg_HomeHealth: 0
+- Pct_Dschrg_Other: 0
+- Pct_Hospitalizados: 4
 
 Estadísticas numéricas:
-            Year   Total_Hosp    Total_Enrl  Total_Hosp_Per100K    Avg_LOS  Pct_Dschrg_SNF  Pct_Dschrg_Expired  Pct_Dschrg_Home  Pct_Dschrg_Hspc  Pct_Dschrg_HomeHealth  Pct_Dschrg_Other
-count  53342.000    44225.000  5.334200e+04           44225.000  42649.000       42649.000           42649.000        42649.000        42649.000              42649.000         42649.000
-mean    2021.269     4421.184  1.926429e+06             338.870     10.494           0.175               0.119            0.410            0.038                  0.172             0.060
-std        1.021    27424.828  1.125261e+07             843.888      3.944           0.075               0.069            0.116            0.027                  0.062             0.032
-min     2020.000        0.000  0.000000e+00               0.000      2.647           0.000               0.000            0.000            0.000                  0.000             0.000
-25%     2020.000       82.000  3.728350e+04              59.672      8.636           0.124               0.061            0.340            0.020                  0.133             0.042
-50%     2021.000      352.000  1.959610e+05             126.306      9.935           0.169               0.112            0.405            0.035                  0.171             0.057
-75%     2022.000     1517.000  8.053442e+05             260.169     11.452           0.220               0.164            0.482            0.050                  0.210             0.074
-max     2023.000  1166117.000  3.471752e+08           16899.023    208.714           0.769               0.667            1.000            0.308                  0.583             0.421
+            Year   Total_Hosp    Total_Enrl  Total_Hosp_Per100K    Avg_LOS  Pct_Dschrg_SNF  Pct_Dschrg_Expired  Pct_Dschrg_Home  Pct_Dschrg_Hspc  Pct_Dschrg_HomeHealth  Pct_Dschrg_Other  Pct_Hospitalizados
+count  53342.000    53342.000  5.334200e+04           53342.000  53342.000       53342.000           53342.000        53342.000        53342.000              53342.000         53342.000           53338.000
+mean    2021.269     3665.533  1.926429e+06             280.952      8.390           0.140               0.095            0.328            0.030                  0.138             0.048               0.281
+std        1.021    25026.769  1.125261e+07             778.909      5.485           0.097               0.078            0.194            0.029                  0.088             0.038               0.779
+min     2020.000        0.000  0.000000e+00               0.000      0.000           0.000               0.000            0.000            0.000                  0.000             0.000               0.000
+25%     2020.000       23.000  3.728350e+04              24.124      7.147           0.070               0.033            0.228            0.000                  0.081             0.017               0.024
+50%     2021.000      201.000  1.959610e+05              96.372      9.309           0.147               0.083            0.374            0.028                  0.153             0.050               0.096
+75%     2022.000     1076.000  8.053442e+05             214.716     10.998           0.206               0.151            0.459            0.046                  0.199             0.069               0.215
+max     2023.000  1166117.000  3.471752e+08           16899.023    208.714           0.769               0.667            1.000            0.308                  0.583             0.421              16.899
